@@ -4,9 +4,9 @@ import '../App.css';
 
 function Navbar() {
   const navLinks = [
-    'o nosso menu',
-    'o ritual',
-    'clube mimo',
+    'Our menu',
+    'The ritual',
+    'Mimo club',
   ];
 
   return (
@@ -14,7 +14,7 @@ function Navbar() {
       <div className="navbar__inner">
         <div className="navbar__brand">
           <div className="navbar__brand-mark">🌿</div>
-          <div className="navbar__brand-name">mimoo.</div>
+          <div className="navbar__brand-name">mimo.</div>
         </div>
 
         <nav className="navbar__nav" aria-label="Menu principal">
